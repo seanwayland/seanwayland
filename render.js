@@ -54,4 +54,24 @@ function render() {
     t.addEventListener("mousedown", handler)
 
     row.appendChild(t)
+
+
+
+}
+
+
+window.render = {
+
+    getW: function() { return w },
+
+    getH: function() { return h },
+
+    isAlive: isAlive,
+
+    emptyBoard: emptyBoard,
+
+    toggleCell: toggleCell
+
+
+
 }
